@@ -1,0 +1,14 @@
+What is a Data Package?
+A data package is a standardized schema that represents a particular type of data.
+Overview
+A Data Package is a pre-defined standard for the types of data that can be bought and solder using Narrative's Data Streaming Platform. 
+ Data Packages create commonality between sellers of data around a particular data asset class. 
+ Data Packages consist of both required and optional fields.
+
+Required Fields
+Required fields are attributes that need to be present for a data record to be considered eligible as part of a data package. 
+ For the event to qualify, it must contain all of the required fields within a data package.
+
+Optional Fields
+Optional fields are attributes that may exist within a data record but are not required for a record to be considered eligible for a data package. 
+ These fields may not be present on any given record within a data package, and some suppliers may never send these attributes.
